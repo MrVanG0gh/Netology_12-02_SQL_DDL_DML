@@ -37,5 +37,5 @@ jdbc:mysql://192.168.1.132:3306/?allowPublicKeyRetrieval=true&useSSL=false
 Создал новую учетную запись 'sys_temp' и выполнил запрос на получение списка пользователей в базе:
 
 
-![Screenshot_1](https://github.com/MrVanG0gh/https://github.com/MrVanG0gh/Netology_12-02_SQL_DDL_DML/blob/Screenshots/Screenshot_1.png)
+![Screenshot_1](https://github.com/MrVanG0gh/Netology_12-02_SQL_DDL_DML/tree/main/Screenshots/Screenshot_1.png)
 
