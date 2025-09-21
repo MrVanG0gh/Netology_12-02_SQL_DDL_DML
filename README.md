@@ -64,7 +64,7 @@ GRANT ALL PRIVILEGES ON *.* TO 'sys_temp'@'%';
 -- Вывод списка прав для пользователя sys_temp
 SHOW GRANTS FOR 'sys_temp'@'%';
 
--- Выбор в качестве активной БД 'sakita'
+-- Выбор в качестве активной БД 'sakila'
 USE sakila;
 
 -- Вывод списка всех таблиц БД 
