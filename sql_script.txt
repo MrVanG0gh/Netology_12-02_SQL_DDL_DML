@@ -1,0 +1,11 @@
+CREATE USER 'sys_temp'@'%';
+
+SELECT * FROM mysql.user;
+
+GRANT ALL PRIVILEGES ON *.* TO 'sys_temp'@'%';
+
+SHOW GRANTS FOR 'sys_temp'@'%';
+
+USE sakila;
+
+SHOW TABLES;
