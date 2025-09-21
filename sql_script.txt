@@ -1,11 +1,17 @@
+-- Создание пользователя sys_temp
 CREATE USER 'sys_temp'@'%';
 
+-- Список все пользователей в БД
 SELECT * FROM mysql.user;
 
+-- Наделение всеми правами пользователя sys_temp
 GRANT ALL PRIVILEGES ON *.* TO 'sys_temp'@'%';
 
+-- Вывод списка прав для пользователя sys_temp
 SHOW GRANTS FOR 'sys_temp'@'%';
 
+-- Выбор в качестве активной БД 'sakita'
 USE sakila;
 
+-- Вывод списка всех таблиц БД
 SHOW TABLES;
